@@ -1,0 +1,18 @@
+body {
+    background-color: #B36AE0;
+}
+h1{
+    color: white;
+    margin-top: 70px;
+    font-size: 100px;
+    text-align: center;
+}
+.logo {
+    height: 100px;
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+main{
+    text-align: center;
+}

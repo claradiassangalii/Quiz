@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jogador.css">
+</head>
+
+<body onload="exibir()">
+    <header>
+
+        <div class="menu">
+            <img src="Group 1 logo.png">
+            <nav>
+                <ul>
+                    <li> <a href="#"> </a> </li>
+                    <li> <a href="#"> Jogar Quiz</a> </li>
+                    <li> <a href="adm.html"> Criar Quiz </a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu2">
+            <a href="login.html" class="bt1"> </a>
+            <a href="index.html" class="bt2"> sair</a>
+        </div>
+    </header>
+
+
+    <h2 class="pontos">Pontos: <h2 id="pontos"></h2>
+    </h2>
+    
+    </header>
+    <main>
+        <h2 class="h2" id="exibirPergunta"></h2>
+
+        <img class="img" src="" id="link">
+        <br><br><br>
+        <div class="div50">
+            <div class="div50-1">
+                <button id="btn1" onclick="resposta('resposta1')"></button>
+                <button id="btn2" onclick="resposta('resposta2')"></button>
+            </div>
+            <div class="div50-1">
+                <button id="btn3" onclick="resposta('resposta3')"></button>
+                <button id="btn4" onclick="resposta('resposta4')"></button>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script src="jogador.js"></script>
+
+</html>

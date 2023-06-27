@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfils</title>
+    <link rel="stylesheet" href="adm.css">
+    <script src="adm.js"></script>
+</head>
+<body>
+   <header>
+   <a href="index.html"> <img class="a" src="Group 1 logo.png" alt=""></a>
+   </header>
+   <h1>Cadastro de perguntas</h1>
+    <div class="corpo">
+       <p> Pergunta: <input class="" type="text" id="pergunta" ></p>
+        
+        <p>Link da imagem <input type="text" name="" id="link" onkeyup="carregarImagem()"> </p>
+
+        <p> resposta 1:  <input class="" type="text" id="respostas1"> </p>
+        <p> resposta 2:<input class="" type="text" id="respostas2" > </p>
+        <p> resposta 3: <input class="" type="text" id="respostas3"  > </p>
+        <p> resposta 4: <input class="" type="text" id="respostas4" >  </p>
+
+        <div class="final">
+            <select name="resposta certa" id="opcoes">
+                <option value="resposta"> resposta certa</option>
+                <option value="resposta1"> resposta 1</option>
+                <option value="resposta2"> resposta 2</option>
+                <option value="resposta3"> resposta 3</option>
+                <option value="resposta4"> resposta 4</option>
+            </select>
+            
+        <input class="bnt" type="button" onclick="adicionarValor()" value="adicionar">
+            <input type="button" class="bng" onclick="abirPorta()" value="Iniciar quiz">
+        </div>
+        
+</div>
+
+</body>
+</html>

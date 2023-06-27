@@ -1,0 +1,45 @@
+body{
+    background-color: #9039D4;
+}
+.logo{
+    height: 100px;
+    width: 280px;
+    margin-left: 80px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 470px;
+}
+.admdiv{
+    margin-top: 100px;
+    padding-left: 140px;
+}
+
+.img1{
+    height: 250px;
+    margin-left: 250px;
+}
+.img1:hover{
+    height: 250px;
+    margin-left: 250px;
+    box-shadow: 5px 8px 50px #d199f1;
+}
+.img2{
+    height: 250px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.img2:hover{
+    height: 250px;
+    margin-left: 250px;
+    box-shadow: 5px 8px 50px #d199f1;
+}
+.p{
+    margin-left: 315px;
+    font-size: 40px;
+}
+.p2{
+    margin-left: 280px;
+    font-size: 40px;
+}
